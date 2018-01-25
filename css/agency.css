@@ -20,8 +20,8 @@ a {
     color: #B9F4FF; }
 
 .text-primary {
-  /*!Linda change color*/
-  color: #FF8282 !important; }
+  /*!Linda change color service的圓圈底色*/
+  color: rgba(80, 227, 194, 0.9) !important; }
 
 h1,
 h2,
@@ -114,7 +114,7 @@ body {
   -webkit-tap-highlight-color: #B9F4FF; }
 
 #mainNav {
-  background-color: #FFFFFF; }
+  background-color: transparent; } /*!menu下拉以的背景色*/
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -122,22 +122,22 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #FF6868;
+    background-color: #50E3C2; /*!右上角menu的顏色*/
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
-    color: #FF6868;
+    color: #29DB91; /*!左上角的字體顏色*/
     font-family: 'Kaushan Script','Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #9B9B9B; }
+      color: #FFF168; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: #FF6868;
+    color: #29DB91; /*!右上角選項的字體的顏色*/
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #9B9B9B; }
+      color: #FFF168; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -147,7 +147,7 @@ body {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: white; }
+    background-color: transparent; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -158,7 +158,7 @@ body {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #FFFFFF; }
+      background-color: rgba(255,255,255,0.90) ; } /*!navbar往下滑動後的背景顏色*/
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } }
@@ -229,8 +229,8 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      /*!以下顏色是半透明遮罩的淡藍色*/
-      background: rgba(185, 244, 255, 0.9); }
+      /*!以下顏色是半透明遮罩的綠色*/
+      background: rgba(80, 227, 194, 0.9); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -253,7 +253,8 @@ header.masthead {
     padding: 25px;
     text-align: center;
     /*! Linda edit the background color to transparent, origin #FFF*/
-    background-color: transparent; }
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.15) }
     #portfolio .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none; }
@@ -564,6 +565,6 @@ ul.social-buttons {
     color: white;
     border-radius: 100%;
     outline: none;
-    background-color: #212529; }
+    background-color: #4A4A4A; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #B9F4FF; }
