@@ -10,28 +10,32 @@ body {
 
 p {
   font-size: 16px;
-  color: #626262;
+  font-weight: 200;
+  color: #a6a7aa;
   line-height: 1.75; }
 
 a {
-  /*!Linda change color*/
+  /*!Linda change color 橘紅色*/
   color: #FF6868; }
   a.active, a:active, a:focus, a:hover {
     color: #B9F4FF; }
 
 .text-primary {
-  /*!Linda change color service的圓圈底色*/
-  color: rgba(80, 227, 194, 0.9) !important; }
+  /*!Linda change color process的圓圈底色*/
+  color: #619DCA !important; }
 
 h1,
 h2,
-h3,
+h3 {
+  color: #5E5E5E;
+  font-weight: 600;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 h4,
 h5,
 h6 {
-  color: black;
-  font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  color: #5E5E5E;
+  font-weight: 350;
+  font-family: 'Opan Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 section {
   padding: 100px 0; }
@@ -40,19 +44,18 @@ section {
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
+    font-size: 14px;
+    font-weight: 200;
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 100px 0; } }
 
 .btn {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Opan Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 .btn-primary {
@@ -122,22 +125,23 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #50E3C2; /*!右上角menu的顏色*/
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    background-color: #424242; /*!右上角menu的顏色*/
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
-    color: #29DB91; /*!左上角的字體顏色*/
-    font-family: 'Kaushan Script','Helvetica Neue', Helvetica, Arial, cursive; }
+    font-size: 12px;
+    color: #424242; /*!左上角的字體顏色*/
+    font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #FFF168; }
+      color: #78B0CE; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
-    font-weight: 400;
+    font-weight: 200;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: #29DB91; /*!右上角選項的字體的顏色*/
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    color: #424242; /*!右上角選項的字體的顏色*/
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #FFF168; }
+      color: #78B0CE; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -146,10 +150,10 @@ body {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.2);
     background-color: transparent; }
     #mainNav .navbar-brand {
-      font-size: 1.75em;
+      font-size: 1em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
@@ -164,7 +168,7 @@ body {
         padding: 12px 0; } }
 
 header.masthead {
-  text-align: center;
+  text-align: left;
   color: #FFFFFF;
   background-image: url("../img/header-bg3.png");
   background-repeat: no-repeat;
@@ -176,37 +180,36 @@ header.masthead {
   background-size: cover; }
   header.masthead .intro-text {
     padding-top: 150px;
-    padding-bottom: 100px; }
+    padding-bottom: 110px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
-
-      font-style: italic;
+      font-weight: 300;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
-      font-size: 50px;
-      font-weight: 700;
+      font-size: 40px;
+      font-weight: 600;
       line-height: 50px;
       margin-bottom: 25px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 150px; }
+    padding-top: 250px;
+    padding-bottom: 220px; }
     header.masthead .intro-text .intro-lead-in {
-      font-size: 40px;
-      font-style: italic;
+      font-size: 22px;
+      font-weight: 300;
       line-height: 40px;
       margin-bottom: 25px;
       font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
-      font-size: 75px;
-      font-weight: 700;
+      font-size: 60px;
+      font-weight: 600;
       line-height: 75px;
-      margin-bottom: 75px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
+      margin-bottom: 20px;
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
 
 .service-heading {
   margin: 15px 0;
@@ -229,8 +232,8 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      /*!以下顏色是半透明遮罩的綠色*/
-      background: rgba(80, 227, 194, 0.9); }
+      /*!以下顏色是半透明遮罩的藍色*/
+      background: rgba(120, 176, 206, 0.9); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
