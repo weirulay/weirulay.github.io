@@ -29,7 +29,7 @@ h2,
 h3 {
   color: #5E5E5E;
   font-weight: 600;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 h4,
 h5,
 h6 {
@@ -53,6 +53,13 @@ section {
 @media (min-width: 768px) {
   section {
     padding: 100px 0; } }
+
+/*!kikago背景圖*/
+#fullbg {
+  padding: 0 0 0 0;
+  background-image: linear-gradient(to bottom, #121317 80%, #537895 100%);
+}
+
 
 .btn {
   font-family: 'Opan Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -129,7 +136,7 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
     font-size: 12px;
-    color: #424242; /*!左上角的字體顏色*/
+    color: #FFFFFF; /*!左上角的字體顏色*/
     font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #78B0CE; }
@@ -138,7 +145,7 @@ body {
     font-weight: 200;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: #424242; /*!右上角選項的字體的顏色*/
+    color: #FFFFFF; /*!右上角選項的字體的顏色*/
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #78B0CE; }
@@ -150,7 +157,7 @@ body {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-    border-bottom: 1px solid rgba(255,255,255,.2);
+    /*!border-bottom: 1px solid rgba(255,255,255,.2); nav底下的細線*/
     background-color: transparent; }
     #mainNav .navbar-brand {
       font-size: 1em;
@@ -164,8 +171,13 @@ body {
       padding-bottom: 0;
       background-color: rgba(255,255,255,0.90) ; } /*!navbar往下滑動後的背景顏色*/
       #mainNav.navbar-shrink .navbar-brand {
+        color: #424242; /*!navbar往下滑動後的左上角字體顏色*/
         font-size: 1.25em;
-        padding: 12px 0; } }
+        padding: 12px 0; } 
+        #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+        color: #424242; } /*!navbar往下滑動後的右上角字體顏色*/
+        }
+
 
 header.masthead {
   text-align: left;
@@ -211,9 +223,76 @@ header.masthead {
       margin-bottom: 20px;
       font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
 
+
+/*!linda add this for extended page header, masthead2*/
+header.masthead2 {
+  text-align: center;
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  header.masthead2 .intro-text {
+    padding-top: 120px;
+    padding-bottom: 60px; }
+    header.masthead2 .intro-text .intro-lead-in {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 22px;
+      margin-bottom: 25px;
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    header.masthead2 .intro-text .intro-heading {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 50px;
+      margin-bottom: 25px;
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+@media (min-width: 768px) {
+  header.masthead2 .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px; }
+    header.masthead2 .intro-text .intro-lead-in {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 40px;
+      margin-bottom: 25px;
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    header.masthead2 .intro-text .intro-heading {
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 75px;
+      margin-bottom: 20px;
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
+
+
+
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
+
+/*for each page's header background color*/
+#bg1{
+  background-image: linear-gradient(to bottom right, #92fe9d 0%, #00c9ff 100%);
+}
+#bg2{
+  background-image: linear-gradient(to bottom right, #4481eb 0%, #04befe 100%);
+}
+#bg3{
+  background-image: linear-gradient(to bottom right, #30cfd0 0%, #330867 100%);
+}
+#bg4{
+  background-image: linear-gradient(to bottom right, #f093fb 0%, #f5576c 100%);
+}
+#bg5{
+  background-image: linear-gradient(to bottom right, #ebedee 0%, #868f96 100%);
+}
+#bg6{
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
 
 #portfolio .portfolio-item {
   right: 0;
