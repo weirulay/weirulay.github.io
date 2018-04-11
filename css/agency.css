@@ -322,8 +322,8 @@ header.masthead2 {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      /*!以下顏色是半透明遮罩的藍色*/
-      background: rgba(120, 176, 206, 0.9); }
+      /*!以下顏色是半透明遮罩的淺白色*/
+      background: rgba(255, 255, 255, 0.5); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
