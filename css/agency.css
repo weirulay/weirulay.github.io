@@ -15,8 +15,8 @@ p {
   line-height: 1.75; }
 
 a {
-  /*!Linda change color 橘紅色*/
-  color: #FF6868; }
+  /*!Linda change color 藍色*/
+  color: #619DCA; }
   a.active, a:active, a:focus, a:hover {
     color: #B9F4FF; }
 
@@ -32,11 +32,11 @@ h3 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 h4 {
   color: #5E5E5E;
-  font-weight: 350;
+  font-weight: 360;
   font-family: 'Opan Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 h5 {
   color: #5E5E5E;
-  font-weight: 300;
+  font-weight: 360;
   font-family: 'Opan Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 h6 {
   color: #5E5E5E;
